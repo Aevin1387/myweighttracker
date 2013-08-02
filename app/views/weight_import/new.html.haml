@@ -1,0 +1,5 @@
+%h2 Weight Import
+%p Choose a file from withings to import
+= simple_form_for :weight_import, url: weight_import_index_path do |f|
+  = f.input :csv, as: :file
+  = f.submit

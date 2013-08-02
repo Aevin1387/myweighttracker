@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130802015216) do
+ActiveRecord::Schema.define(version: 20130802053148) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,5 +33,14 @@ ActiveRecord::Schema.define(version: 20130802015216) do
   end
 
   add_index "users", ["uid"], name: "index_users_on_uid", unique: true, using: :btree
+
+  create_table "weight_imports", force: true do |t|
+    t.integer "user_id"
+    t.float   "weight"
+    t.float   "fat"
+    t.date    "weighed_at"
+  end
+
+  add_index "weight_imports", ["user_id"], name: "index_weight_imports_on_user_id", using: :btree
 
 end

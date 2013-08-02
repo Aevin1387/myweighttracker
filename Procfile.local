@@ -1,0 +1,3 @@
+log: tail -f log/development.log
+web: bundle exec rails server
+sidekiq: bundle exec sidekiq

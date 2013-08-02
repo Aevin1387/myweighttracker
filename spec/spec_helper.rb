@@ -8,6 +8,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require "rspec/rails"
 require "rspec/autorun"
 require "capybara/rspec"
+require "sidekiq/testing"
 
 include Warden::Test::Helpers
 
@@ -24,5 +25,7 @@ RSpec.configure do |config|
 
   config.include Devise::TestHelpers, type: :controller
   config.include Warden::Test::Helpers, type: :feature
+
+  config.include FactoryGirl::Syntax::Methods
 end
 
