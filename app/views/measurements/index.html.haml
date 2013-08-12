@@ -1,0 +1,14 @@
+.content
+  %table
+    %tr
+      %th Date
+      %th Weight
+      %th Fat %
+    - @measurements.each do |measurement|
+      %tr
+        %td= measurement.measured_at
+        %td= measurement.weight
+        %td= measurement.fat
+  = paginate @measurements
+
+  = link_to "Import from CSV", new_weight_import_path

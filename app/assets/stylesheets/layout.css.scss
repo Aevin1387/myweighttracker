@@ -1,0 +1,11 @@
+body > .content {
+  @include grid-row;
+
+  > .full {
+    @include grid-column(12);
+
+    table {
+      width: 100%;
+    }
+  }
+}

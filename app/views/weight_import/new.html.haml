@@ -1,5 +1,6 @@
-%h2 Weight Import
-%p Choose a file from withings to import
-= simple_form_for :measurement, url: weight_import_index_path do |f|
-  = f.input :csv, as: :file
-  = f.submit
+.content
+  %h2 Weight Import
+  %p Choose a file from withings to import
+  = simple_form_for :measurement, url: weight_import_index_path do |f|
+    = f.input :csv, as: :file
+    = f.submit

@@ -8,7 +8,8 @@ class WeightImportController < ApplicationController
     import = WeightImport.new(current_user, import_params[:csv].tempfile)
 
     if import.start_import
-      render :show
+      flash.now.notice = "Weight Imported Successfully"
+      redirect_to measurements_path
     else
       flash.now.alert = import.errors
       render :new

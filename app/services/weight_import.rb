@@ -61,8 +61,9 @@ class WeightImport
       weight = weight.to_f
       fat_mass = row["FATMASS"].to_f
       fat = ((weight/(weight-fat_mass)).to_f-1)*100
+      fat = fat.round(2)
     end
 
-    @user.measurements.where(measured_at: row["DATE"]).first_or_initialize(weight: weight, fat: fat, measured_at: row["DATE"]).save
+    measurement = @user.measurements.where(measured_at: row["DATE"]).first_or_initialize(weight: weight, fat: fat, measured_at: row["DATE"]).save
   end
 end
