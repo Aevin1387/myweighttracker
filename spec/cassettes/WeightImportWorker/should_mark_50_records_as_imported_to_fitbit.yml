@@ -1,0 +1,5803 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=157.0&date=2013-05-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="44b7d90597bd8db1faa344e8c1c338c0",
+        oauth_signature="OUDqUIp6gKd9QwwLaA570NToSdM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278089", oauth_token="33f014c5380c47cc74ac3c6698f2d025",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A922F468751233EDFB2095C8CEF7C3BD.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi10.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 33f014c5380c47cc74ac3c6698f2d025"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:28:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=22.0&date=2013-05-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="b061e2d4983cf0c7b208461fc7fa6bac",
+        oauth_signature="OVQoLZNy6oXoYFUjBWfCc2rKnNQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278090", oauth_token="33f014c5380c47cc74ac3c6698f2d025",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=2E66AC791496E94058E476970E5E8355.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi06.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 33f014c5380c47cc74ac3c6698f2d025"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:28:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=265.0&date=2013-07-04
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="b950722b5adbf8e003d0069b549c67fd",
+        oauth_signature="WnjEVQ2AiwLBZUsNqHLtiN2jn9w%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278140", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:54 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4A2C8FD2FBEEE9AA543426BA09AEC406.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:00 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=10.0&date=2013-07-04
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d96ff470b066f575c047cd73907ab095",
+        oauth_signature="Z7gEz3trljYh8l8UQO6n0mNJKNA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278140", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:55 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=470F69AE67164808A3DA1456EB0BF256.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:01 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=197.0&date=2013-07-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="643c15e8e0212f6afc3dc3c5df4f8f05",
+        oauth_signature="pDRGuQfIkw1dw0QPMcW5hhWlZXU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278141", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:55 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=BEC7C7DE8B05F13A0465D25A7030AD28.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:01 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=34.0&date=2013-07-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="0f83022ba0fbe656c6021e5e98552f75",
+        oauth_signature="MO69kQuQ352%2F%2Fn783MdYLgIlxMo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278141", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:55 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=EF5F06D46F994C53852981B0AB896EB5.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:01 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=209.0&date=2013-06-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="94253e36f917f710caad1e3b4b04f911",
+        oauth_signature="QMut4N%2FcCMKJ%2FkibHc5R6JZdMGU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278141", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:55 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=8C86FD4E6E83756DF014668A55F3875C.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi06.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:01 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=22.0&date=2013-06-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="4736e7613a9e05709b091c068d9c0da3",
+        oauth_signature="40pccGKW2P5sit9rekUUSKs24y8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278141", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:56 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=8F30D258A698985AE4A8F21A5784FC62.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:02 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=288.0&date=2013-05-26
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="f429bc85ded69795461b12a81a258c9b",
+        oauth_signature="dlSU%2B1Lx6wb%2B%2BDBTyfn72RW0R3w%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278142", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:56 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=651927A496A99746D1FF8CAE4733F73D.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:02 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=29.0&date=2013-05-26
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="2eeab27c23e685658fdadbb2f9585188",
+        oauth_signature="mGVm5v00%2BxN4yHZ3udW1%2FqHDIP8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278142", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:56 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A2D00F292E6627EA5BFBC29C9CB0E932.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:02 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=192.0&date=2013-05-29
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="b3a36574d540aa87e8120ce8e4d5f781",
+        oauth_signature="Prze1nGlM83i4xDdLzcz9P4E0qY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278142", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:57 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=265B79F1463FA18CDAB0E95FFFB4BA99.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi13.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:02 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=37.0&date=2013-05-29
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="a6758dca508fb956f5ac9102d3295b47",
+        oauth_signature="9pIhSNcb0oOy%2B%2FyYfpQEFSGHUEM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278142", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:57 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=67579ED68564B1BA8AACC5F4636E2B5B.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:03 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=241.0&date=2013-06-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c60563a63cb76b2086bc0bf695d46aba",
+        oauth_signature="9FH1hJ4%2FKUVmNVe%2FlnsqT1dWmio%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278143", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:57 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=23037366A0884944B3A08D11FDF154ED.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:03 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=12.0&date=2013-06-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="6e3b7bef1daf06169890c894bb777341",
+        oauth_signature="YBsS%2BKgW3pZBm8tka4HRG7uq3U8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278143", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:57 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=127C707E09A2DD5F2F43A4294EAEA340.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi11.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:03 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=289.0&date=2013-07-21
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="e370d59eed76c902a42841b0a2418f5e",
+        oauth_signature="Jmt2oJCe7wkjXNxTkFphnSJOa2k%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278143", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:58 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=0B65947DEB194C4087E1137D2F0E8220.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi05.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:04 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=15.0&date=2013-07-21
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="5cdd9de7613cb2502e2cdc5967e4dd83",
+        oauth_signature="hvPLpeo9xwoxJbENfqd0AgA9Oqw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278144", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:58 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4EBFF7EAAD07FF194AEE096819ACA186.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:04 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=303.0&date=2013-07-15
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="a62f7c111aa60b1915e66bee3eaa8fba",
+        oauth_signature="SXalaavSYgyQb3yrD8f2agRzGHs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278144", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:58 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=0FD2932A65A4F95CF7F99D7C2099FEC0.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi04.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:04 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=19.0&date=2013-07-15
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="52f72a74829b25fc0fe49d7319ffec59",
+        oauth_signature="fExh4rxj3Tj6yFbdZgB9UI0fWLs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278144", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:59 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=3EACBC252CBAE489545220C3D6A73BFE.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi04.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:04 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=325.0&date=2013-07-09
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="7655f05da34e2eeb69309680286df539",
+        oauth_signature="O7qwsptybSCrENsDYsm38Y4X%2BtY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278144", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:59 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4D89B13DAF59CC58054B27D558BCE6F7.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi18.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:05 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=20.0&date=2013-07-09
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="3dbad453357a2c917daf57e3f041bdd4",
+        oauth_signature="hG1fKtsqNQf12RKQJbOVlQ98YPM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278145", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:59 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A9C9B106B5F313824963C25003E37352.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi10.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:05 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=104.0&date=2013-08-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="de14b8b3a4db5833e19bb23b8c98d7a0",
+        oauth_signature="MwUZoLPa01RFy60n9ha36%2BhEgdo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278145", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:28:59 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A6B413BCFCA0D8835B46F98066D4FD91.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi14.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:05 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=13.0&date=2013-08-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="b2a68a2889a81e21dd2e3e1c76bb5be1",
+        oauth_signature="cQn%2B7Uw7AV00ZUdEtoW%2BY5q9a%2BQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278145", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:00 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=F96E173D9BA94C4435C76CF5ADB01807.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi06.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:06 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=400.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="52f982ea28d5d1d6ef0e5f016c4bbe3b",
+        oauth_signature="M9crWX7NjuBzzpCgdsbcqUBJKfk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278146", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:00 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=FA703B8CD3888E75515053058162969D.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi13.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:06 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=23.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="1c06a8b58bf0e96d762ce6a74182b75a",
+        oauth_signature="gD3wuQZWPDIIQfJalCCFHbZHa1s%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278146", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:00 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=39996D92C7196FC94C6563C7B108B2BF.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:06 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=172.0&date=2013-07-25
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d28a161e647c4b9e276e09a7d526acf4",
+        oauth_signature="6ffoyUQtgyu1YgK31zqx0kQ44gc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278146", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:00 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=DBCE0F70F5116DA9696CB30D54E2F249.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi16.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:06 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=14.0&date=2013-07-25
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="41424f6a440b55abcad651f9e685a9d6",
+        oauth_signature="nwYMS%2BNnhS3gZLl0KxkT4cVi7MY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278146", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:01 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=CF1B9E2CCB53ECAADA2C84825FB38D79.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi15.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:07 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=372.0&date=2013-07-28
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="ce94644df8da59f58c48d463a5624b13",
+        oauth_signature="4w6ezFm8Hp%2Fw0K2GBR%2BzQtzg8VM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278147", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:01 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=74F17F2C10E75DC014D2B081E35B9E63.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi16.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:07 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=10.0&date=2013-07-28
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="6978ba56bdc020217d66a1ca989b53f6",
+        oauth_signature="G%2B2UctNOUw4y47wDJshOSidatY0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278147", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:01 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=DFEF8C773CA7835048DA513AD6E14B1F.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:07 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=207.0&date=2013-07-18
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="6b8037dbc97efa0d2848fe0f9f036f3d",
+        oauth_signature="UEXiz%2FuKK2Ue4Q%2FmVWKSAU9JDgI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278147", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:01 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=185948E853C3FAA23C34A025B4CA88F7.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi14.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:07 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=43.0&date=2013-07-18
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="aa06cd0e71af31827910d5d81176e0f5",
+        oauth_signature="SytQjFP32EU3zamnh95AgtM%2Fo8Y%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278147", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:02 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A3BD4EF5F6522FB7107317D66C7BBF37.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi16.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:08 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=129.0&date=2013-08-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="2d480f5815cd831254d8b00fe013e11b",
+        oauth_signature="FwBjxwj13hjokMYRzX%2FocAJtmsk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278148", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:02 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=981F5B817B6523913F2A125E8D54B365.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:08 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=47.0&date=2013-08-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="a08053f03246a09c62951554d52e9c1b",
+        oauth_signature="lvsf3wQV95bIDumrSNtbDuIHs9E%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278148", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:02 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=837CD4B75C4D30C9E6664E1C816F6956.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi05.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:08 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=153.0&date=2013-05-04
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="bc070c514fb008603d426f66e8a7bade",
+        oauth_signature="4SY3mmt6%2F4%2BY%2BV%2FfVPjeGSdF7X8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278148", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:03 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=3C7C6165AE7CE66317E560C50EA03C47.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi18.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:08 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=37.0&date=2013-05-04
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="9629972f20db315bc9e92544e1e74ffa",
+        oauth_signature="7QQk6rWCS%2Ffib00NjdUU7cXhpIk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278148", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:03 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=1276DF4439A5ECFDACD60CE08D3EE16B.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi10.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:09 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=129.0&date=2013-05-17
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="cca56c5e0d9604ad2147bb4b99da90f6",
+        oauth_signature="ctx47iU841dzUUPqrSziblOIEpU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278149", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:03 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=44DC687578DBD724E1318D7FFFD82CA6.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:09 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=27.0&date=2013-05-17
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="cfc9357e8c1f8cc3c8fc1c64e8018b53",
+        oauth_signature="q5tnvuBN135FUTbPx4VSrgBFJY4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278149", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=6E65A382A5A9F63319DE3AE00C9B6532.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:09 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=348.0&date=2013-07-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="236b55f7d539f73e277eecf40e28a7f6",
+        oauth_signature="XIC367jgBBu5ZGXjtFZ19afoSMA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278149", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=399C441090DE926D1935308D479BC81C.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi05.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=44.0&date=2013-07-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="50459cf868862558043dec78f669b44d",
+        oauth_signature="vtzfXMNce0N2Thi13ELwuiGxnTI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278150", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=E6D5E5827056041F06B7DF23FF7C8FC2.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=248.0&date=2013-05-21
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="8c17bb3a20e652efabbba851ce34dcdf",
+        oauth_signature="8%2FWCu3ZgQ2eaI2VrUP5rOmjCEzw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278150", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:04 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=FCD728FCD1661E07E7C5FF365C7ACE88.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=28.0&date=2013-05-21
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="325e35e8d750d602a25c0d2b0781c93f",
+        oauth_signature="gTVh1i4cIPF9CDaIwmI%2B7HCR5I0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278150", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:05 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=1C94FD3AA4F0C49A50B9F7D9FC38EAF1.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:10 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=169.0&date=2013-05-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c7021c85182650a2bfaa4ff9618b8be3",
+        oauth_signature="YKKjfpyXZ46Zwg7%2BWf9vdxVE3e8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278150", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:05 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=6D2584E74F023B066CDCE2FF374F7718.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:11 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=12.0&date=2013-05-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d6edd40d45c46833105786579906f0f4",
+        oauth_signature="U25itl6SpKXBF0XFf%2FYPGxOG8SE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278151", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:05 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A7A4A229E23ADB2965D9DE2525CEBC19.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:11 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=108.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="9ba8fb378ab9392a2776c87827d5e536",
+        oauth_signature="WQ91zcmRZo0sKp5vG64g%2BVS7Dz4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278151", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:05 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=AB2F1884A5DC69A0D840FAF02119E557.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi04.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:11 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=23.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="3f244adab51d015726fceb4654d8c5d8",
+        oauth_signature="p8hJ9aoYcf2mFFLUmjCUwTKZTcE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278151", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:06 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4778182ACE60E70C245788161F9354CB.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi18.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:11 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=398.0&date=2013-07-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="845915137b9bfa5d9eb184625be10b13",
+        oauth_signature="GQeGzWzKVc3Jb12aMHql4H%2FW%2FYU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278151", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:06 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=5FEECB74E90116F6BAC67FF1E125268C.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi08.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:12 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=25.0&date=2013-07-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="b4146748a65e3e1f152906bede1c6cd2",
+        oauth_signature="mgtZhtznHctbHEm4WmjsJAgzsSY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278152", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:06 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=CA258F8AFD459B722E09400B8F3A8CD3.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:12 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=150.0&date=2013-06-10
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="5f027fd439fe6e9b1510870f53f5adf6",
+        oauth_signature="4tdtr4eYUAmiCk0FjyhUjjsJkl0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278152", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:06 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=F7BB3945922858F3401BBFB0FAFBEFB2.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi13.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:12 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=28.0&date=2013-06-10
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="ee2a41bbcb2696ffab24e392f506d297",
+        oauth_signature="K1cAUPxreLeJoRWZytjB6X6C0c8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278152", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:07 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=175ED4AB8C0B47133CA48BBC1FC671C3.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi06.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:12 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=226.0&date=2013-08-03
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c4c54bc90c0df49583a28407226d5fb2",
+        oauth_signature="RpqGSycvsvH5o%2FpO3ZjT22i84Aw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278152", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:07 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=7F55D60547A86B8F128D8519E7118555.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi11.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:13 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=25.0&date=2013-08-03
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="f57cba8439fc2f16e47012530daeb6ce",
+        oauth_signature="JS%2Bl%2B8fVrL7sQ43ev%2BciSCaih8U%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278153", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:07 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=5D03E6C67A560AE72E0255648E295B89.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:13 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=188.0&date=2013-05-19
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="8241ee6244728363d5686f2b1e9d8c65",
+        oauth_signature="Bkto1nLLTtkF%2FxJ%2FTyfV1OVFtuo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278153", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:07 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=11FE20D1BCAC042C42951E89B9AEA438.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi15.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:13 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=40.0&date=2013-05-19
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="87a0fbc0667086cbc2688f47b747f74d",
+        oauth_signature="y2SIqVPysk7CaX7QJ7WW%2BVaGSgo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278153", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:08 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4451482E660DAF1248D3D1868640182A.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi17.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:14 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=342.0&date=2013-08-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="7ad4f141ae98ae4d218b93b59a0cc4d5",
+        oauth_signature="1pQNX3QpAqeA4ajgqSMUGEK50iM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278154", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:08 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=1301BECFF6BDEB1C3D69949CA41993D9.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:14 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=42.0&date=2013-08-01
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="891e31cd9725289ea9cec0d6812ed589",
+        oauth_signature="fiTAAUSnVUqj7vbpAZ4NJSSpGDQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278154", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:08 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=FFE66F773615D48C76DEA88222FA4AE4.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:14 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=251.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="85f20de6c0904bed8254b15b7a8c0aad",
+        oauth_signature="gtuKqE1V7Wc3UgYeHkIJx3z7NRg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278154", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:09 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=062745F3F5B2E5BD596C4667E133B59E.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi14.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:14 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=11.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="8ef1580163628e615dfec08c7ef57451",
+        oauth_signature="liP420DK3rySFyMTEB%2F5GdF1pec%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278154", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:09 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A6270BD8C81EAF9E4E09534D5907BD6A.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi04.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:15 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=323.0&date=2013-06-13
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="e58fe16f550ae0d268ec93a2fa404a4e",
+        oauth_signature="3r%2F4t08N8Ijh8UzSXNXosR6COe4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278155", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:09 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=2540FF6AA818CE3D433798324264810E.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi11.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:15 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=40.0&date=2013-06-13
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="9cabc228c0f6a366016b769d093244af",
+        oauth_signature="H10q2EuYOiINBHJkv6aULV%2Bx%2B7A%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278155", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:10 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=A226B01B3560722CBF5AE8B92B1C08A9.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:15 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=203.0&date=2013-07-09
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="59407aa1e5a9ffa8c33947e3ee3a3ac7",
+        oauth_signature="MFYujZzpSKN5bHZ88PTMTGc2mBI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278155", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:10 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=1FBF214153F789E65B1DF06055172966.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi08.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:16 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=34.0&date=2013-07-09
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="41c34149107e7064f937c6465d07f3bb",
+        oauth_signature="PmdZeABBpS50oYA0wsqLfAXM5LI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278156", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:10 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=49364F980B4EEA703F3AC420A6CD4BB4.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:16 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=113.0&date=2013-07-30
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="63a43e4313ff71853980d33eed76b1b7",
+        oauth_signature="kJ%2Fvizd%2Fa%2BCuMBQMhZCKK%2F3pxUc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278156", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:10 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=6D3B8E3089F9B8BE2637D9BD56FF6E11.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi15.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:16 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=14.0&date=2013-07-30
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="5ed934bcdd0ae690984c45a2c890b847",
+        oauth_signature="RZQy5fAXzIkvAw5R95Q9XJO6VgQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278156", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:11 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=AA4A7A1F9157DF6D373D5BF706E04732.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:17 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=307.0&date=2013-05-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="24e41c3e05cc6f152bdc89216dcf5435",
+        oauth_signature="9luRv5Vqnmt96%2BI8Of2f6uQts4Y%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278157", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:11 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=EA7BADD15DEB201EB5E60247DFA6353B.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi11.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:17 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=32.0&date=2013-05-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="7c07e2d6a6eeec446f8cc50b9a7f0cf6",
+        oauth_signature="MVbYg04drQ3nI1xQiga%2BndU9KI0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278157", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:11 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=56890C3828CD31808D061081AFC2F001.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi04.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:17 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=233.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c5a56cd368d6a8e6907b88bb9f785961",
+        oauth_signature="pcj02%2FKiW%2FYxhlq4%2FcRy1%2Fvatqo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278157", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:12 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=5BC04E631A010EF6CF833E3EBA8152CA.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi06.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:18 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=11.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="81453ae6fc7199c56d9949be64027fa1",
+        oauth_signature="pJnJEuOzeXXppmpBYy4mgWJR9Is%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278158", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:12 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=D64150F7DE80949D11D642BFD33C840B.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi05.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:18 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=267.0&date=2013-05-19
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="ff5c6eb298f9db6fb1a6c096e9798b6b",
+        oauth_signature="O%2FfdHn0NfWdx6u9RW4xJbLT%2B1Ls%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278158", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:12 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=39FBF6AC56305F94860B4783F3045C27.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:18 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=42.0&date=2013-05-19
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="8b3e0205cfbcbdbcfd1440815414425b",
+        oauth_signature="Tf6aaYPwxTfGBsbjIOE27%2F56fJw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278158", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:13 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=012AE985F08637117CACDFADEE9A63B8.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi14.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:18 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=319.0&date=2013-07-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="73d82765ea5226f6b499f5a4c29f290d",
+        oauth_signature="Vv9tWCC8jqKZOWfGsrmPmvADqlU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278158", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:13 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=E7193AF16F5549DF7BC5E7D79086B25D.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:19 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=30.0&date=2013-07-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="273b11088662b4e03035abe94b0527f8",
+        oauth_signature="xcgGGpS6juV5GjR3p9uPjtw3Xmc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278159", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:13 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=AEBA3D63AD641CFE7BF69F4A39842380.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi13.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:19 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=324.0&date=2013-06-13
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="35408795b7e32c31ab747a0a4f383fa1",
+        oauth_signature="SKBQ14UNsQe0R2hRaqtTWwutIIA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278159", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:13 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=AC12D3568ACBC74B8EB1600C58A0F911.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi13.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:19 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=14.0&date=2013-06-13
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="7ff6f48948b2e4b338fa37b59d1e97ef",
+        oauth_signature="VqBrhuieXeUhRTvSMAh0MWeLTJ4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278159", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:14 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=D8BF641059AF936526839FDC16D23D94.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:19 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=277.0&date=2013-08-06
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="8eac2c578a7345acac3ab86e0f4704a4",
+        oauth_signature="NZSVC6FxOukgZHfviSYJqynGHm8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278159", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:14 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=8E4B688930F58B3469FBCDBAB93AFB42.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:20 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=50.0&date=2013-08-06
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="685089647ca897e6315545969601ac2a",
+        oauth_signature="LLEkG0z5akunBqWNWBwtW%2F%2BoKUk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278160", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:14 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=F3A36DF799EE8CFF232B8F42FD10DE06.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:20 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=359.0&date=2013-05-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d5848685f54aa4843563109ec837ca33",
+        oauth_signature="zCDHxDawKQ9PAeh3oQJjE9LHI8s%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278160", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:14 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=68D81F75CD44B6783FDFCF931BBFA5D6.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:20 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=25.0&date=2013-05-12
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="9d8d01ffa6fe331f95c9abc496398f67",
+        oauth_signature="q2z5YLbZaSHZH9v03RGy2ZCKslQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278160", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:15 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=2E623D349C6CEFE73CA8C6ED844119CA.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi17.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:21 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=287.0&date=2013-05-28
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c2b2a70a95eb553b4ad6f9485eaa30d6",
+        oauth_signature="N%2B9x1o6igon4p6pzHbDI2ll7Ls0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278161", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:15 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=038AFF19058ABCFAC3A550F256491087.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:21 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=38.0&date=2013-05-28
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="c73339058dc627c48ffbb7856ccbc2ba",
+        oauth_signature="vWZp11YoMqe%2Bj1ddTvbF7IKIi8M%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278161", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:15 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=E29274E55373575D87B5E69FCC3390C9.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:21 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=400.0&date=2013-05-26
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="4f1dcf507906b58cf82f79006192db68",
+        oauth_signature="DquD7chTexZHYpXyLEYQegSTmiY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278161", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:15 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=3AC2C935B2C497E8CF4D0C24D5573689.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi15.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:21 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=40.0&date=2013-05-26
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="640e4157d673a01d43951ce17f42f0f6",
+        oauth_signature="kt0Mv8RLJJijlCGsfvDu2MVLK%2F0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278161", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:16 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=0D0966AA6B52A8572B3E7D2551AA762E.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:22 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=200.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="ff27d9f3ddbc7d1a0dc7a21fa64b1c80",
+        oauth_signature="ISijRygdE2QKRrINxSvxz3wa48c%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278162", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:16 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=60BD0BA3E61511966E5876D57C7A342D.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi05.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:22 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=21.0&date=2013-07-07
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="65a36145d9286d41312ec7825093250e",
+        oauth_signature="pOtTrnd3X5D7c09J8EJixa4vcf8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278162", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:16 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=D6DB5589DFD2E0AAA2E428863C88A637.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi03.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:22 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=316.0&date=2013-06-03
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="22f9983e4538f8adc047056bfe084c35",
+        oauth_signature="YyjwIJR%2Fu%2FbbyxX5aImabE%2FeSPY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278162", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:17 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=84DEF3A5EBCE163A993FDA782A2AE899.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi08.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:22 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=38.0&date=2013-06-03
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="e55761c52664cd4c1202936212193d28",
+        oauth_signature="N2yS7wvVtniwQ1%2BRH8J3pOduQ3Y%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278162", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:17 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=09225D2DA219A6A3197AD771E026D713.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi10.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:23 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=147.0&date=2013-07-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="a2baee240ed5820aac07c080175b3180",
+        oauth_signature="yYxGvjGT%2FlzPIpkOgIwqa8gniWA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278163", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:17 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=7A6BC2F2EA78FC8DC5E9B8C44F09792C.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:23 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=50.0&date=2013-07-23
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="68741e6036deec51d3f2b89183b41e37",
+        oauth_signature="4uPxc649K3%2FwwzMGgfWRiMCVoNM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278163", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:17 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=9B63006A542F2742827E9198B1BF52EE.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:23 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=119.0&date=2013-06-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="0b98b8fac96c73ac96105ecfef977c2a",
+        oauth_signature="jONFz%2BHD5WnOLyEWScIrtU28Xa4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278163", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:18 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=1D047D8AFE2E5A5254D23BA12FFC6802.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi08.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:23 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=12.0&date=2013-06-08
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="2eb5cb7d2481f38e6c92eb0219bb0da9",
+        oauth_signature="qZBZd0qVna3TfOBg0f9qExeA%2BCo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278163", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:18 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=646DDFFF0234E6166C8ACFBFEC5FD398.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi18.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:24 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=159.0&date=2013-07-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="6ae6a0ae6f22d617c7a61fd8b647b0ef",
+        oauth_signature="HScxXyIbjCMhpwh9bbU11Hp3b14%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278164", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:18 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=19513BA1B16838EAE13E014065565765.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi10.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:24 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=44.0&date=2013-07-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="e9ee5d554db3df04f3a54a1986ac8337",
+        oauth_signature="2lHXeKFEBiAona62BVNVeTsQnNg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278164", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:18 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=7089FF50435C3E12EE992299D75EA1D5.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi12.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:24 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=152.0&date=2013-07-02
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="25856a40098f24d26f665dad32f43634",
+        oauth_signature="%2FQZ8bMZkHMhOHemrNQz5vkqM604%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278164", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:19 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=4DA5539A53F8A3792B4CD75A30DA7BAC.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:25 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=46.0&date=2013-07-02
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d0c73da0abc4bb6ef37527bac1efe6d9",
+        oauth_signature="lPpiVzcKnAntLKm4sHUcsxWhJIw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278165", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:19 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=8316D714E683A24383CAE27FB52D7764.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi02.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:25 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=164.0&date=2013-07-10
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="0133d0d7c4feb6a7cd064ef5a0412395",
+        oauth_signature="y5yEkMrZBaBwz%2F8Y%2BUcgo2wuoa8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278165", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:19 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=9AB8C30B621170D11D317EB9951F878A.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi15.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:25 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=33.0&date=2013-07-10
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="cfc0b581003119bb8071b2d91431cce2",
+        oauth_signature="k%2Fx%2BcleLcOo8eK03FahYkoVwnTA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278165", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:19 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=46E1DC49BD68C76CB8E9539A27452556.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi17.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:25 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=221.0&date=2013-08-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="805b6599cc75068c3665590ae39b3d03",
+        oauth_signature="xwK1%2BhizQYsJnZqAWWsf2zr2hRk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278165", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:20 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=C4557CE32951D6F01670A1FDC2F76EA4.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi01.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:26 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=27.0&date=2013-08-05
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="d04842b2cfb5266a7ce44a567b87c1d8",
+        oauth_signature="3hmA0jsuGfcX%2BlyJ8RIGmeRt8ps%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278166", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:20 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=ED9549EB511638CBEFA8346A511AE707.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi07.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:26 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=219.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="669c01e6d39887cbbe42230e9b705623",
+        oauth_signature="dxUQcFya%2BiLbosDze9zZF51hi6o%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278166", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:20 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=AC68C1FF801517C9B338DF938CD71718.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi16.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:26 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=27.0&date=2013-06-24
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="bde33aa8f357f6ec4cc213b812f84160",
+        oauth_signature="WfPMMkTGEHzrCPiBVifTj%2BfNP5o%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278166", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:21 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=22806B70F865D6C97B46EEAF95D20396.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:26 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/weight.json
+    body:
+      encoding: US-ASCII
+      string: weight=382.0&date=2013-05-31
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="2ef05798a9717dfe2f63b69ffd1b1e5b",
+        oauth_signature="tOwRsTjSboWe1Icwx0rmPv98TU8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278166", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:21 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=C27A01D59CA4C7B27A43F9B2B7CDF48F.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi09.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:27 GMT
+- request:
+    method: post
+    uri: https://api.fitbit.com/1/user/-/body/log/fat.json
+    body:
+      encoding: US-ASCII
+      string: fat=23.0&date=2013-05-31
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Language:
+      - en_US
+      Authorization:
+      - OAuth oauth_consumer_key="10376ff9b94943299fb1cdc6dbaceea7", oauth_nonce="347e4fa7a44d835a5e32675a75d7d397",
+        oauth_signature="KEVi14zJbjKfNtti2Q2gEIeBEqw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376278167", oauth_token="1627f8fce6f11ebcf687ad26335d2ce7",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Mon, 12 Aug 2013 03:29:21 GMT
+      Content-Type:
+      - application/x-www-form-urlencoded;charset=UTF-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - JSESSIONID=5FB6F0CAEE084AD88AF25276B9E9E8A8.fitbit1; Path=/
+      - fhttps=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      Www-Authenticate:
+      - OAuth realm="https%3A%2F%2Fapi11.fitbit.com"
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"errorType":"oauth","fieldName":"oauth_access_token","message":"Invalid/expired
+        user token: 1627f8fce6f11ebcf687ad26335d2ce7"}]}'
+    http_version: 
+  recorded_at: Mon, 12 Aug 2013 03:29:27 GMT
+recorded_with: VCR 2.5.0

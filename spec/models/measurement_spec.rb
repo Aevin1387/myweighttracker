@@ -1,8 +1,9 @@
 require "spec_helper"
 
-describe WeightImport do
+describe Measurement do
   context "validations" do
-    it { should validate_presence_of :weighed_at }
+    it { should validate_presence_of :measured_at }
+    it { should validate_presence_of :user }
   end
 
   context "associations" do

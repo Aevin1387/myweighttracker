@@ -40,6 +40,8 @@ end
 
 group :test do
   gem "capybara"
+  gem "nyan-cat-formatter"
+  gem "rspec-nc"
   gem "rspec-rails"
   gem "shoulda-matchers"
   gem "vcr"

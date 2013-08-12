@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
   devise :omniauthable
   validates :provider, :uid, :full_name, :display_name, :oauth_token, :oauth_token_secret, presence: true
 
-  has_many :weight_imports
+  has_many :measurements
 
   def self.new_with_session(params, section)
   end
@@ -14,9 +14,5 @@ class User < ActiveRecord::Base
                          display_name: auth.info.display_name,
                          oauth_token: auth.info.oauth_token,
                          oauth_token_secret: auth.info.oauth_token_secret)
-  end
-
-  def imports_remaining?
-    self.weight_imports.exists?
   end
 end

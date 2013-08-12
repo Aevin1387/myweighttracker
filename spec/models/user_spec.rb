@@ -12,6 +12,6 @@ describe User do
   end
 
   context "associations" do
-    it { should have_many :weight_imports }
+    it { should have_many :measurements }
   end
 end

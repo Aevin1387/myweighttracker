@@ -5,7 +5,7 @@ class WeightImportController < ApplicationController
   end
 
   def create
-    import = WithingsImport.new(current_user, import_params[:csv].tempfile)
+    import = WeightImport.new(current_user, import_params[:csv].tempfile)
 
     if import.start_import
       render :show
@@ -21,7 +21,7 @@ class WeightImportController < ApplicationController
   protected
 
   def import_params
-    return {} unless params.has_key?(:weight_import)
-    params.require(:weight_import).permit(:csv)
+    return {} unless params.has_key?(:measurement)
+    params.require(:measurement).permit(:csv)
   end
 end

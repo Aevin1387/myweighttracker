@@ -30,10 +30,10 @@ describe WeightImportController do
       sign_in user
     end
 
-    it "creates weight import records" do
+    it "creates measurement records" do
       expect do
-        post :create, weight_import: { csv: file }
-      end.to change(WeightImport, :count).by(4)
+        post :create, measurement: { csv: file }
+      end.to change(Measurement, :count).by(4)
     end
   end
 end

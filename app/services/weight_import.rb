@@ -1,6 +1,6 @@
 require "csv"
 
-class WithingsImport
+class WeightImport
   attr_reader :user, :csv, :valid, :errors
 
   def initialize(user, file)
@@ -13,13 +13,9 @@ class WithingsImport
   def start_import
     return valid? unless verify_csv
 
-
-
     @csv.each do |row|
       import_row(row)
     end
-
-    WeightImportWorker.perform_async(@user.id)
 
     valid?
   end
@@ -67,6 +63,6 @@ class WithingsImport
       fat = ((weight/(weight-fat_mass)).to_f-1)*100
     end
 
-    @user.weight_imports.create(weight: weight, fat: fat, weighed_at: row["DATE"])
+    @user.measurements.where(measured_at: row["DATE"]).first_or_initialize(weight: weight, fat: fat, measured_at: row["DATE"]).save
   end
 end
