@@ -16,7 +16,7 @@ class WeightImportWorker
   end
 
   def records
-    @records ||= @user.measurements.where("imported_to_#{@type}" => false)
+    @user.measurements.where("imported_to_#{@type}" => false)
   end
 
   def api
@@ -33,7 +33,7 @@ class WeightImportWorker
   end
 
   def start_import
-    imports = records.limit(100)
+    imports = records.limit(50)
 
     imports.each do |import|
       return unless @limit > 0
@@ -44,7 +44,7 @@ class WeightImportWorker
       import.update("imported_to_#{@type}" => true)
     end
 
-    WeightImportWorker.perform_at(1.hour.from_now, @user.id, @type) if imports_remaining
+    WeightImportWorker.perform_at(1.hour.from_now, @user.id, @type) if imports_remaining?
   end
 
   def import_weight(import)
