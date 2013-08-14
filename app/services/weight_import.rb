@@ -60,7 +60,7 @@ class WeightImport
     if weight.present? && row["FATMASS"].present?
       weight = weight.to_f
       fat_mass = row["FATMASS"].to_f
-      fat = ((weight/(weight-fat_mass)).to_f-1)*100
+      fat = (fat_mass/weight)*100
       fat = fat.round(2)
     end
 
