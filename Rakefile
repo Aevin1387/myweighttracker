@@ -3,4 +3,4 @@
 
 require File.expand_path("../config/application", __FILE__)
 
-WithingsImporter::Application.load_tasks
+MyWeightTracker::Application.load_tasks

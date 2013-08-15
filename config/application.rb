@@ -12,7 +12,7 @@ require "csv"
 # you"ve limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module WithingsImporter
+module MyWeightTracker
   class Application < Rails::Application
 
     config.autoload_paths += Dir[
